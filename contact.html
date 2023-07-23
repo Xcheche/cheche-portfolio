@@ -70,6 +70,28 @@
             
             return false;
         }
+
+<!-- block copy -->
+    
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault();
+});
+
+// Disable text selection
+document.addEventListener('selectstart', function (event) {
+    event.preventDefault();
+});
+
+// Disable drag-and-drop
+document.addEventListener('dragstart', function (event) {
+    event.preventDefault();
+});
+
+        
+    
+
+
+      
     </script>
     
 
