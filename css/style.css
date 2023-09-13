@@ -174,7 +174,7 @@ a:hover {
   }
   
   button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: palevioletred;
     color: white;
     padding: 10px 15px;
     border: none;
