@@ -191,4 +191,12 @@ a:hover {
     font-size: 14px;
     margin-top: 5px;
   }
-  
+  .todo{
+    padding: 10px 20px;
+    margin: 0%;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 40px;
+text-decoration: solid blue;
+
+  }
