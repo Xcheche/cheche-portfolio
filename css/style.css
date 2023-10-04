@@ -191,10 +191,10 @@ a:hover {
     font-size: 14px;
     margin-top: 5px;
   }
-  .todo{
+  .divapps{
     padding: 10px 20px;
     margin: 0%;
-    background-color: aliceblue;
+    background-color: rgb(24, 75, 119);
     color: black;
     border-radius: 40px;
 text-decoration: solid blue;
