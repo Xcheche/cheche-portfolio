@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="images/mypic.ico" type="image/x-icon" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <svg version="1.1" class="wave" xlmns="http://www.w3.org/200/svg">
@@ -130,24 +131,5 @@
         </a>
       </ul>
     </footer>
-
-    <!-- block copy -->
-    <script>
-      document.addEventListener("contextmenu", function (event) {
-        event.preventDefault();
-      });
-
-      // Disable text selection
-      document.addEventListener("selectstart", function (event) {
-        event.preventDefault();
-      });
-
-      // Disable drag-and-drop
-      document.addEventListener("dragstart", function (event) {
-        event.preventDefault();
-      });
-
-      document.querySelector("body").style.backgroundColor = "#c0c0c0";
-    </script>
   </body>
 </html>
